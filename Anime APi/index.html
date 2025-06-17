@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bitter:ital,wght@0,100..900;1,100..900&family=Inder&family=Jua&family=Lilita+One&family=Lora:ital,wght@0,600;1,600&family=Madimi+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Permanent+Marker&family=Saira:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&display=swap"
+            rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anime</title>
+        <link rel="stylesheet" href="assets/css/anime-api.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <div id="select">
+            <select id="nameCharacter">
+                <option value disabled selected>Selecteaza un caracter</option>
+                <option value="1">Goku</option>
+                <option value="2">Vegeta</option>
+                <option value="3">Piccolo</option>
+                <option value="4">Bulma</option>
+                <option value="5">Freezer</option>
+                <option value="6">Zarbon</option>
+                <option value="7">Dodoria</option>
+                <option value="8">Ginyu</option>
+                <option value="9">Celula</option>
+                <option value="10">Gohan</option>
+                <option value="11">Krillin</option>
+                <option value="12">Tenshinhan</option>
+                <option value="13">Yamcha</option>
+                <option value="14">Chi-Chi</option>
+                <option value="15">Gotenks</option>
+                <option value="16">Trunks</option>
+                <option value="17">Master Roshi</option>
+                <option value="18">Bardock</option>
+                <option value="19">Launch</option>
+                <option value="20">Mr. Satan</option>
+                <option value="21">Dende</option>
+                <option value="22">Android 17</option>
+                <option value="23">Android 16</option>
+                <option value="24">Android 19</option>
+                <option value="25">Android 20 (Dr. Gero)</option>
+                <option value="26">Android 13</option>
+                <option value="27">Android 14</option>
+                <option value="28">Android 15</option>
+                <option value="29">Nail</option>
+                <option value="30">Raditz</option>
+                <option value="31">Babidi</option>
+                <option value="32">Majin Buu</option>
+                <option value="33">Bills</option>
+                <option value="34">Whis</option>
+                <option value="35">Zeno</option>
+                <option value="37">Kibito-Shin</option>
+                <option value="38">Jiren</option>
+                <option value="39">Toppo</option>
+                <option value="40">Dyspo</option>
+                <option value="42">Marcarita</option>
+                <option value="43">Vermoudh</option>
+                <option value="44">Grand Priest</option>
+                <option value="63">Kaio del norte (Kaito)</option>
+                <option value="64">Android 18</option>
+                <option value="65">Gogeta</option>
+                <option value="66">Vegetto</option>
+                <option value="67">Janemba</option>
+                <option value="68">Broly</option>
+                <option value="69">Kaio del Sur</option>
+                <option value="70">Kaio del este</option>
+                <option value="71">Kaio del Oeste</option>
+                <option value="72">Gran Kaio</option>
+                <option value="73">Kaio-shin del Este</option>
+                <option value="74">Kaio-shin del Norte</option>
+                <option value="75">Kaio-shin del Sur</option>
+                <option value="76">Kaio-shin del Oeste</option>
+                <option value="77">Gran Kaio-shin</option>
+                <option value="78">Kibito</option>
+            </select>
+        </div>
+
+        <div id="characterDetails" style="display: none;">
+            <div class="Caracter">
+                <img src id="characterName" style="display: none;">
+                <div id="details">
+                    <p>Numele: <span id="name"></span></p>
+                    <p>Putere minima: <span id="putereMinima"> </span></p>
+                    <p>Putere maxima: <span id="putereMaxima"> </span></p>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/anime-api.js"></script>
+    </body>
+</html>
